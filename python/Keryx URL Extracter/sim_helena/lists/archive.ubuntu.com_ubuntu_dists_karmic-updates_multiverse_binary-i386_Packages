@@ -1,0 +1,752 @@
+Package: avidemux
+Priority: optional
+Section: multiverse/graphics
+Installed-Size: 2300
+Maintainer: Alessio Treglia <quadrispro@ubuntu.com>
+Architecture: i386
+Version: 1:2.5.1+repack-0ubuntu2.1
+Depends: libatk1.0-0 (>= 1.20.0), libavidemux0 (>= 1:2.5.1+repack), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.18.0), libpango1.0-0 (>= 1.14.0), libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.4.0), libx11-6, libxext6, libxml2 (>= 2.7.4), libxv1, avidemux-common, avidemux-plugins
+Filename: pool/multiverse/a/avidemux/avidemux_2.5.1+repack-0ubuntu2.1_i386.deb
+Size: 897180
+MD5sum: b72ba6fefeeabcae5b349f7cd0294d50
+SHA1: b97a1a5a2cc7e3180f93add5426aba6db5b0d173
+SHA256: b4711e15319a33ff12b22b8f8c15416ada49d2ac7d3ccbf66ed42587183a987f
+Description: a free video editor - GTK version
+ Avidemux is a free video editor designed for simple cutting, filtering and
+ encoding tasks. It supports many file types, including AVI, DVD compatible
+ MPEG files, MP4 and ASF, using a variety of codecs. Tasks can be automated
+ using projects, job queue and powerful scripting capabilities.
+ .
+ This package contains the classic version with GTK+ interface.
+Homepage: http://avidemux.org
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: avidemux-cli
+Priority: optional
+Section: multiverse/graphics
+Installed-Size: 1752
+Maintainer: Alessio Treglia <quadrispro@ubuntu.com>
+Architecture: i386
+Source: avidemux
+Version: 1:2.5.1+repack-0ubuntu2.1
+Provides: avidemux
+Depends: libavidemux0 (>= 1:2.5.1+repack), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), libxml2 (>= 2.7.4), avidemux-common, avidemux-plugins
+Filename: pool/multiverse/a/avidemux/avidemux-cli_2.5.1+repack-0ubuntu2.1_i386.deb
+Size: 703704
+MD5sum: e1378666dc8499201aec994c9d1185c8
+SHA1: e047241f711768e6ffb04c77de017c61def1c5bc
+SHA256: 108d93df35ff3d4ade8cba18dd738bdd2d2fb526418d820f963c90331698391f
+Description: a free video editor - command line version
+ Avidemux is a free video editor designed for simple cutting, filtering and
+ encoding tasks. It supports many file types, including AVI, DVD compatible
+ MPEG files, MP4 and ASF, using a variety of codecs. Tasks can be automated
+ using projects, job queue and powerful scripting capabilities.
+ .
+ This package contains the command line version.
+Homepage: http://avidemux.org
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: avidemux-common
+Priority: optional
+Section: multiverse/graphics
+Installed-Size: 2096
+Maintainer: Alessio Treglia <quadrispro@ubuntu.com>
+Architecture: all
+Source: avidemux
+Version: 1:2.5.1+repack-0ubuntu2.1
+Replaces: avidemux (<= 1:2.4.0-0.0)
+Filename: pool/multiverse/a/avidemux/avidemux-common_2.5.1+repack-0ubuntu2.1_all.deb
+Size: 712536
+MD5sum: a3c1c93e0d4159cdb3b7d6f319061c5f
+SHA1: 80bdc261f331a6c522b3bd3d62a7104e2cccaf2b
+SHA256: 8f6b81e76845341206bae2b56187d143167e77232f53c988a4fc03e7c851ab2a
+Description: a free video editor - Internationalization files
+ Avidemux is a free video editor designed for simple cutting, filtering and
+ encoding tasks. It supports many file types, including AVI, DVD compatible
+ MPEG files, MP4 and ASF, using a variety of codecs. Tasks can be automated
+ using projects, job queue and powerful scripting capabilities.
+ .
+ This package contains internationalization files needed to translate
+ strings in avidemux to others languages.
+Homepage: http://avidemux.org
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: avidemux-qt
+Priority: optional
+Section: multiverse/graphics
+Installed-Size: 2524
+Maintainer: Alessio Treglia <quadrispro@ubuntu.com>
+Architecture: i386
+Source: avidemux
+Version: 1:2.5.1+repack-0ubuntu2.1
+Provides: avidemux
+Depends: libavidemux0 (>= 1:2.5.1+repack), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libqtcore4 (>= 4.5.1), libqtgui4 (>= 4.5.1), libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxml2 (>= 2.7.4), libxv1, avidemux-common, avidemux-plugins
+Filename: pool/multiverse/a/avidemux/avidemux-qt_2.5.1+repack-0ubuntu2.1_i386.deb
+Size: 1003688
+MD5sum: f50de80c5b5fe4becdcd5e1fc17231a0
+SHA1: 8c772504dc186060d7942b4532438718fe25c875
+SHA256: 7d9633691d231ee3683c4886aab39c12b744cc580b0087cade7df4527f1fc1e5
+Description: a free video editor - QT version
+ Avidemux is a free video editor designed for simple cutting, filtering and
+ encoding tasks. It supports many file types, including AVI, DVD compatible
+ MPEG files, MP4 and ASF, using a variety of codecs. Tasks can be automated
+ using projects, job queue and powerful scripting capabilities.
+ .
+ This package contains the QT4 version.
+Homepage: http://avidemux.org
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: flashplugin-installer
+Priority: optional
+Section: multiverse/web
+Installed-Size: 184
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Architecture: i386
+Source: flashplugin-nonfree
+Version: 10.0.45.2ubuntu0.9.10.1
+Replaces: flashplugin (<< 6), flashplugin-nonfree
+Provides: flashplugin-nonfree
+Depends: debconf | debconf-2.0, wget, libgtk2.0-0, fontconfig, libxt6, libxext6, libatk1.0-0, libc6, libcairo2, libexpat1, libfontconfig1, libfreetype6, libglib2.0-0, libice6, libpango1.0-0, libpng12-0, libsm6, libx11-6, libxau6, libxcursor1, libxdmcp6, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, zlib1g, libnss3-1d (>= 3.12.0~beta3), libnspr4-0d (>= 4.7.1~beta2)
+Recommends: libasound2-plugins (>= 1.0.16)
+Suggests: firefox, xulrunner-1.9, firefox-3.0, konqueror-nsplugins, x-ttcidfont-conf, msttcorefonts, ttf-bitstream-vera | ttf-dejavu, ttf-xfree86-nonfree, xfs (>= 1:1.0.1-5)
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-nonfree (<< 10.0.22.87ubuntu2~), libflashsupport, xfs (<< 1:1.0.1-5)
+Filename: pool/multiverse/f/flashplugin-nonfree/flashplugin-installer_10.0.45.2ubuntu0.9.10.1_i386.deb
+Size: 19704
+MD5sum: 15a49289f0facb5921d975dafb21e132
+SHA1: 09af90aeca7afda952a4485a8000f520e19db772
+SHA256: 6f2e70486365e8767e483a2820b1a6d0bdde7301e705dd589fc9ec90c8f36f4e
+Description: Adobe Flash Player plugin installer
+ This package will download the Flash Player from the net.  It is a
+ Netscape/Mozilla type plugin.  Any browser based on Netscape or Mozilla can
+ use the Flash plugin.  This package currently supports the following browsers:
+ Mozilla, Mozilla-Firefox, Firefox, Iceweasel, and Iceape.  Also Galeon and
+ Epiphany can use the Flash plugin.  Konqueror can also use the Flash plugin if
+ konqueror-nsplugins is installed.
+ .
+ WARNING: Installing this Ubuntu package causes the Adobe flash plugin to be
+ downloaded from www.adobe.com.  The distribution license of the Adobe flash
+ plugin is available at www.adobe.com.  Installing this Ubuntu package implies
+ that you have accepted the terms of that license.
+Homepage: http://wiki.ubuntu.com/FlashPlayer9
+Npp-Applications: ec8030f7-c20a-464f-9b0e-13a3a9e97384, 92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a, aa5ca914-c309-495d-91cf-3141bbb04115
+Npp-Description: Adobe Flash SWF Player (http://www.adobe.com)
+Npp-File: libflashplayer.so
+Npp-Mimetype: application/x-shockwave-flash
+Npp-Name: Adobe Flash Player (installer)
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: flashplugin-nonfree
+Priority: optional
+Section: multiverse/web
+Installed-Size: 40
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Architecture: i386
+Version: 10.0.45.2ubuntu0.9.10.1
+Depends: flashplugin-installer
+Filename: pool/multiverse/f/flashplugin-nonfree/flashplugin-nonfree_10.0.45.2ubuntu0.9.10.1_i386.deb
+Size: 1770
+MD5sum: 3b5df21ca9b5ef36ee0efa0cdd50a38c
+SHA1: 9c1876bc609d8bec3ad5b19f4a9ac2f897bb7409
+SHA256: 88da8be16cd39d7ae75c1ee24531cf328989f7c5e409e3b59ed0d74984f1706f
+Description: Adobe Flash Player plugin installer (transitional package)
+ This package is a transitional package that can safely be removed after you installed
+ flashplugin-installer.
+Homepage: http://wiki.ubuntu.com/FlashPlayer9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: iriverter
+Priority: optional
+Section: multiverse/graphics
+Installed-Size: 504
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Richard Bailey <rmjb@mail.com>
+Architecture: all
+Version: 0.16-0ubuntu3.1
+Depends: java-gcj-compat | java-gcj-compat-dev, libswt-gtk-3.5-java, mplayer-nogui | mplayer, mencoder, ffmpeg
+Filename: pool/multiverse/i/iriverter/iriverter_0.16-0ubuntu3.1_all.deb
+Size: 250656
+MD5sum: f550d13b73f20c36252abecd4ce728fe
+SHA1: 1219aac647e3b212e070df1f9467aa5803303260
+SHA256: 388120465ea1a6446f8ce57929ab4f671241122628c59481a76fce2090ed10b6
+Description: converts video for use on various multimedia players
+ iriverter is a cross-platform frontend to mencoder designed to facilitate the
+ conversion of almost any video format to one that is playable on various
+ multimedia players.
+Homepage: http://iriverter.sourceforge.net/index.shtml
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: linux-firmware-nonfree
+Priority: optional
+Section: multiverse/kernel
+Installed-Size: 636
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: all
+Version: 1.2.2
+Replaces: linux-firmware (<< 1.17)
+Conflicts: linux-firmware (<< 1.17)
+Filename: pool/multiverse/l/linux-firmware-nonfree/linux-firmware-nonfree_1.2.2_all.deb
+Size: 269112
+MD5sum: 8760a2ebfe1fd4f391dffd72914addda
+SHA1: 13f0c9e0318aa66670fd1cc4134626f53d26ad71
+SHA256: 8876ac0c262488c75047c1e5e544873dd81002f5df23f92ed9d4a4ccfc6640e9
+Description: Non-free firmware for Linux kernel drivers
+ This package provides non-free firmware used by Linux kernel drivers.
+ .
+ This currently contains firmware for DVB cards.
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mencoder
+Priority: extra
+Section: multiverse/graphics
+Installed-Size: 3600
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: mplayer
+Version: 2:1.0~rc3+svn20090426-1ubuntu10.1
+Depends: debconf | debconf-2.0, mplayer-nogui, libasound2 (>> 1.0.18), libavcodec52 (>= 3:0.svn20090303-1) | libavcodec-extra-52 (>= 3:0.svn20090303-1), libavformat52 (>= 3:0.svn20090303-1) | libavformat-extra-52 (>= 3:0.svn20090303-1), libavutil49 (>= 3:0.svn20090303-1) | libavutil-extra-49 (>= 3:0.svn20090303-1), libc6 (>= 2.7), libcdparanoia0 (>= 3.10.2+debian), libfaac0 (>= 1.26), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.10.9), libgcc1 (>= 1:4.1.1), libgif4 (>= 4.1.6), libjpeg62, liblircclient0, liblzo2-2, libmp3lame0, libncurses5 (>= 5.6+20071006-3), libogg0 (>= 1.0rc3), libpng12-0 (>= 1.2.13-4), libpostproc51 (>= 3:0.svn20090303-1) | libpostproc-extra-51 (>= 3:0.svn20090303-1), libsmbclient (>= 3.0.24), libspeex1 (>= 1.2~beta3-1), libstdc++6 (>= 4.1.1), libswscale0 (>= 3:0.svn20090303-1) | libswscale-extra-0 (>= 3:0.svn20090303-1), libtheora0 (>= 0.0.0.alpha7.dfsg), libx264-67 (>= 1:0.svn20090502), libxvidcore4 (>= 1:1.0.0-0.0), zlib1g (>= 1:1.1.4)
+Suggests: mplayer-doc, ttf-freefont, bzip2, fontconfig
+Filename: pool/multiverse/m/mplayer/mencoder_1.0~rc3+svn20090426-1ubuntu10.1_i386.deb
+Size: 1656588
+MD5sum: 13be3353568ac3aa7d60da328799026f
+SHA1: 093e99190d576a5728cdf41d45b5ebc65889908c
+SHA256: 0d98c642c083dd66a9978a5e355f8eabe65db468c8f2e3ba2c35e35b07ad8fc9
+Description: MPlayer's Movie Encoder
+ MPlayer plays most MPEG, VOB, AVI, Ogg/OGM, VIVO,
+ ASF/WMA/WMV, QT/MOV/MP4, FLI, RM, NuppelVideo, yuv4mpeg, FILM, RoQ, PVA files,
+ supported by many native, XAnim, RealPlayer, and Win32 DLL codecs. It can
+ also play VideoCD, SVCD, DVD, 3ivx, RealMedia, and DivX movies.
+ .
+ This package contains menconder, a simple movie encoder, designed to
+ encode MPlayer-playable movies
+ (AVI/ASF/OGG/DVD/VCD/VOB/MPG/MOV/VIV/FLI/RM/NUV/NET) to other
+ MPlayer-playable formats. It can encode with various codecs, like DivX4
+ (1 or 2 passes), libavcodec, PCM/MP3/VBRMP3 audio. Also has stream
+ copying and video resizing abilities.
+Homepage: http://www.mplayerhq.hu/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mplayer
+Priority: extra
+Section: multiverse/graphics
+Installed-Size: 4904
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Version: 2:1.0~rc3+svn20090426-1ubuntu10.1
+Depends: debconf | debconf-2.0, mplayer-skin, mplayer-nogui, libasound2 (>> 1.0.18), libatk1.0-0 (>= 1.20.0), libaudio2, libavcodec52 (>= 3:0.svn20090303-1) | libavcodec-extra-52 (>= 3:0.svn20090303-1), libavformat52 (>= 3:0.svn20090303-1) | libavformat-extra-52 (>= 3:0.svn20090303-1), libavutil49 (>= 3:0.svn20090303-1) | libavutil-extra-49 (>= 3:0.svn20090303-1), libc6 (>= 2.7), libcaca0 (>= 0.99.beta15-1), libcairo2 (>= 1.2.4), libcdparanoia0 (>= 3.10.2+debian), libdirectfb-1.2-0, libesd-alsa0 (>= 0.2.35) | libesd0 (>= 0.2.35), libfaac0 (>= 1.26), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.10.9), libgcc1 (>= 1:4.1.1), libgif4 (>= 4.1.6), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libjack0 (>= 0.116.1), libjpeg62, liblircclient0, liblzo2-2, libmp3lame0, libncurses5 (>= 5.6+20071006-3), libogg0 (>= 1.0rc3), libopenal1, libpango1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libpostproc51 (>= 3:0.svn20090303-1) | libpostproc-extra-51 (>= 3:0.svn20090303-1), libpulse0 (>= 0.9.19), libsdl1.2debian (>= 1.2.10-1), libsmbclient (>= 3.0.24), libspeex1 (>= 1.2~beta3-1), libstdc++6 (>= 4.1.1), libsvga1, libswscale0 (>= 3:0.svn20090303-1) | libswscale-extra-0 (>= 3:0.svn20090303-1), libtheora0 (>= 0.0.0.alpha7.dfsg), libx11-6, libx264-67 (>= 1:0.svn20090502), libxext6, libxinerama1, libxt6, libxv1, libxvidcore4 (>= 1:1.0.0-0.0), libxvmc1, libxxf86dga1, libxxf86vm1, zlib1g (>= 1:1.1.4)
+Suggests: mplayer-doc, ttf-freefont, netselect | fping, bzip2, fontconfig
+Filename: pool/multiverse/m/mplayer/mplayer_1.0~rc3+svn20090426-1ubuntu10.1_i386.deb
+Size: 2268382
+MD5sum: 289be7348e1bf0f0901995775c59528d
+SHA1: 0601d6c04dcdadbff13695cae1098d560faad7a8
+SHA256: fc3a53f26859ec069cbf1db8ed4c52ccda13e197b189e442e12a7c02714a0de5
+Description: movie player for Unix-like systems
+ MPlayer plays most MPEG, VOB, AVI, Ogg/OGM, VIVO,
+ ASF/WMA/WMV, QT/MOV/MP4, FLI, RM, NuppelVideo, yuv4mpeg, FILM, RoQ, PVA files,
+ supported by many native, XAnim, RealPlayer, and Win32 DLL codecs. It can
+ also play VideoCD, SVCD, DVD, 3ivx, RealMedia, and DivX movies.
+ .
+ Another big feature of MPlayer is the wide range of supported output
+ drivers. It works with X11, Xv, DGA, OpenGL, SVGAlib, fbdev,
+ DirectFB, but also SDL (plus all its drivers) and some
+ low level card-specific drivers (for Matrox, 3Dfx and Radeon, Mach64
+ and Permedia3). Most of them support software or hardware scaling,
+ therefore allowing fullscreen display.  MPlayer is also able
+ to use some hardware MPEG decoder boards, such as the DVB
+ and DXR3/Hollywood+.
+ .
+ Not all of the upstream code is distributed in the source tarball.
+ See the README.Debian and copyright files for details.
+Homepage: http://www.mplayerhq.hu/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mplayer-doc
+Priority: extra
+Section: multiverse/graphics
+Installed-Size: 13012
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: mplayer
+Version: 2:1.0~rc3+svn20090426-1ubuntu10.1
+Replaces: mplayer (<< 2:1.0~rc3+svn20090426-1)
+Recommends: mplayer
+Filename: pool/multiverse/m/mplayer/mplayer-doc_1.0~rc3+svn20090426-1ubuntu10.1_all.deb
+Size: 3201968
+MD5sum: e2e050ddb878e872ffb13b27068669bd
+SHA1: a55a69cdb300f6016d1bb0877ff23435d0370a81
+SHA256: 53c3c3b528c37831314f85f703a5288d46e911960c4041283a4d4e15725f69a0
+Description: documentation for MPlayer
+ This package contains the documentation for MPlayer, a movie player for
+ Unix-like systems.
+Homepage: http://www.mplayerhq.hu/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: mplayer-nogui
+Priority: extra
+Section: multiverse/graphics
+Installed-Size: 4576
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian multimedia packages maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Source: mplayer
+Version: 2:1.0~rc3+svn20090426-1ubuntu10.1
+Replaces: mplayer (<< 2:1.0~rc3+svn20090426-1), mplayer-doc (<< 1.0~rc3+svn20090426-1)
+Depends: debconf | debconf-2.0, libasound2 (>> 1.0.18), libaudio2, libavcodec52 (>= 3:0.svn20090303-1) | libavcodec-extra-52 (>= 3:0.svn20090303-1), libavformat52 (>= 3:0.svn20090303-1) | libavformat-extra-52 (>= 3:0.svn20090303-1), libavutil49 (>= 3:0.svn20090303-1) | libavutil-extra-49 (>= 3:0.svn20090303-1), libc6 (>= 2.7), libcaca0 (>= 0.99.beta15-1), libcdparanoia0 (>= 3.10.2+debian), libdirectfb-1.2-0, libesd-alsa0 (>= 0.2.35) | libesd0 (>= 0.2.35), libfaac0 (>= 1.26), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.10.9), libgcc1 (>= 1:4.1.1), libgif4 (>= 4.1.6), libgl1-mesa-glx | libgl1, libjack0 (>= 0.116.1), libjpeg62, liblircclient0, liblzo2-2, libmp3lame0, libncurses5 (>= 5.6+20071006-3), libogg0 (>= 1.0rc3), libopenal1, libpng12-0 (>= 1.2.13-4), libpostproc51 (>= 3:0.svn20090303-1) | libpostproc-extra-51 (>= 3:0.svn20090303-1), libpulse0 (>= 0.9.19), libsdl1.2debian (>= 1.2.10-1), libsmbclient (>= 3.0.24), libspeex1 (>= 1.2~beta3-1), libstdc++6 (>= 4.1.1), libsvga1, libswscale0 (>= 3:0.svn20090303-1) | libswscale-extra-0 (>= 3:0.svn20090303-1), libtheora0 (>= 0.0.0.alpha7.dfsg), libx11-6, libx264-67 (>= 1:0.svn20090502), libxext6, libxinerama1, libxt6, libxv1, libxvidcore4 (>= 1:1.0.0-0.0), libxvmc1, libxxf86dga1, libxxf86vm1, zlib1g (>= 1:1.1.4)
+Suggests: mplayer-doc, ttf-freefont, netselect | fping, bzip2, fontconfig, nvidia-libvdpau1 | nvidia-libvdpau
+Filename: pool/multiverse/m/mplayer/mplayer-nogui_1.0~rc3+svn20090426-1ubuntu10.1_i386.deb
+Size: 2090442
+MD5sum: 434a0149ec29a0fab17d609e1d879e5b
+SHA1: 275797fb657ff8de0d1edf8a24f2744c259d3b7d
+SHA256: 95394c380118dc650de3cc46aa51e3f53c45804d8a56f3e212ab9842db6594a8
+Description: movie player for Unix-like systems
+ MPlayer plays most MPEG, VOB, AVI, Ogg/OGM, VIVO,
+ ASF/WMA/WMV, QT/MOV/MP4, FLI, RM, NuppelVideo, yuv4mpeg, FILM, RoQ, PVA files,
+ supported by many native, XAnim, RealPlayer, and Win32 DLL codecs. It can
+ also play VideoCD, SVCD, DVD, 3ivx, RealMedia, and DivX movies.
+ .
+ Another big feature of MPlayer is the wide range of supported output
+ drivers. It works with X11, Xv, DGA, OpenGL, SVGAlib, fbdev,
+ DirectFB, but also SDL (plus all its drivers) and some
+ low level card-specific drivers (for Matrox, 3Dfx and Radeon, Mach64
+ and Permedia3). Most of them support software or hardware scaling,
+ therefore allowing fullscreen display.  MPlayer is also able
+ to use some hardware MPEG decoder boards, such as the DVB
+ and DXR3/Hollywood+.
+ .
+ Not all of the upstream code is distributed in the source tarball.
+ See the README.Debian and copyright files for details.
+ .
+ Version without the GUI in GTK
+Homepage: http://www.mplayerhq.hu/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: python-profiler
+Priority: optional
+Section: multiverse/python
+Installed-Size: 264
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Version: 2.6.4-0ubuntu1
+Replaces: python2.3-profiler, python2.4-profiler
+Depends: python (>= 2.4), python (<< 2.7), python-central (>= 0.6.7)
+Suggests: python-doc
+Conflicts: python2.3-profiler, python2.4-profiler
+Filename: pool/multiverse/p/python-profiler/python-profiler_2.6.4-0ubuntu1_all.deb
+Size: 50276
+MD5sum: e2e3533e1cc86116c26e406d12e19e3c
+SHA1: 33685dd711ee4c4e79c3a1628d53032ecefb88b6
+SHA256: ee781ce5981bde88e54a8fcbbbba191c03549a3d2447d76f8d19dbf3137cd672
+Description: deterministic profiling of any Python programs
+ A profiler is a program that describes the run time performance of a
+ program, providing a variety of statistics.  This profiler provides
+ deterministic profiling of any Python programs.  It also provides a
+ series of report generation tools to allow users to rapidly examine
+ the results of a profile operation.
+ .
+ This package contains the modules 'profile' and 'pstats' from the
+ standard library. They were move to a non-free package because of
+ its license.
+Python-Version: 2.4, 2.5, 2.6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: rott
+Priority: optional
+Section: multiverse/games
+Installed-Size: 748
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: i386
+Version: 1.1-3ubuntu0.1
+Depends: libc6 (>= 2.4), libsdl-mixer1.2 (>= 1.2.6), libsdl1.2debian (>= 1.2.10-1), debconf (>= 0.5) | debconf-2.0, wget, unzip | p7zip-full
+Recommends: freepats, timidity
+Filename: pool/multiverse/r/rott/rott_1.1-3ubuntu0.1_i386.deb
+Size: 309398
+MD5sum: 00d67cb15fc55bbc22dd55502193386a
+SHA1: 3b1797475a08324a995e1c9465103e203e4063b4
+SHA256: 26e1d82b610653bc88e853408b73f4b9b852b54d9d02a618783a7308e75de3ac
+Description: Rise of the Triad -- The HUNT Begins
+ Rise of the Triad is a high quality, fast scrolling first-person perspective
+ 3D action game. It includes a lot of destructive enemies, an arsenal of
+ weapons from simple pistols to missile launchers, life-preserving armor, traps
+ and ambushes galore.
+ .
+ WARNING: Rise of the Triad features wanton and gratuitous violence.
+ .
+ This package contains no data files but can install the shareware data files
+ from the Internet.
+Homepage: http://icculus.org/rott/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: rott-dbg
+Priority: extra
+Section: multiverse/devel
+Installed-Size: 1264
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: i386
+Source: rott
+Version: 1.1-3ubuntu0.1
+Depends: rott (= 1.1-3ubuntu0.1)
+Filename: pool/multiverse/r/rott/rott-dbg_1.1-3ubuntu0.1_i386.deb
+Size: 556372
+MD5sum: efdc2aa019e342a57daca58cc355589d
+SHA1: c33dcd317f1d78316eb4a2a0c5cce0a5c9bf83d9
+SHA256: 46b9e4d0e84a1b41e366e875d2e3f13533f70730d93f1d14ba0f185a09651ce5
+Description: Rise of the Triad -- The HUNT Begins (debug)
+ Rise of the Triad is a high quality, fast scrolling first-person perspective
+ 3D action game. It includes a lot of destructive enemies, an arsenal of
+ weapons from simple pistols to missile launchers, life-preserving armor, traps
+ and ambushes galore.
+ .
+ This package contains the debug symbols.
+Homepage: http://icculus.org/rott/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: sun-java6-bin
+Priority: optional
+Section: multiverse/libs
+Installed-Size: 85540
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: i386
+Source: sun-java6
+Version: 6.20dlj-0ubuntu1.9.10
+Depends: sun-java6-jre (= 6.20dlj-0ubuntu1.9.10), unixodbc, libc6
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Recommends: libasound2, libx11-6, libxext6, libxi6, libxtst6, libnss-mdns
+Suggests: binfmt-support
+Conflicts: binfmt-support (<< 1.1.2)
+Filename: pool/multiverse/s/sun-java6/sun-java6-bin_6.20dlj-0ubuntu1.9.10_i386.deb
+Size: 29437202
+MD5sum: 44f835296e774ab400fb08ce47b112b8
+SHA1: a1c7ec15d433ae7222a8d6fd21d9934cae33729e
+SHA256: 7369c02df459d842e3349042ccdbf091e53e3ea92ce26fc5ca629a0385b2a446
+Description: Sun Java(TM) Runtime Environment (JRE) 6 (architecture dependent files)
+ The Sun Java Platform Standard Edition Runtime Environment (JRE) 6
+ contains the Java virtual machine, runtime class libraries, and
+ Java application launcher that are necessary to run programs written
+ in the Java progamming language. It is not a development environment and
+ doesn't contain development tools such as compilers or debuggers.
+ For development tools, see the Java Development Kit JDK(TM) 6
+ (package sun-java6-jdk).
+ .
+ This package contains architecture dependent files.
+Homepage: http://java.sun.com/javase/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: sun-java6-demo
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 28288
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: i386
+Source: sun-java6
+Version: 6.20dlj-0ubuntu1.9.10
+Replaces: sun-java6-jdk
+Depends: sun-java6-jre (= 6.20dlj-0ubuntu1.9.10), sun-java6-jdk (= 6.20dlj-0ubuntu1.9.10)
+Suggests: sun-java6-doc
+Filename: pool/multiverse/s/sun-java6/sun-java6-demo_6.20dlj-0ubuntu1.9.10_i386.deb
+Size: 12192378
+MD5sum: f682b57ed26cb84e41e5f0be7cbe9e85
+SHA1: 1e6d8df55c60d5e72322591cb67a07db368507f2
+SHA256: b7f934364bef4ed3fb4c80dc76dc29fb8dd09780619c9e1fad24b63440af0f63
+Description: Sun Java(TM) Development Kit (JDK) 6 demos and examples
+ The JDK(TM) is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the examples and demonstration files.
+Enhances: sun-java6-jdk
+Homepage: http://java.sun.com/javase/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: sun-java6-doc
+Priority: optional
+Section: multiverse/doc
+Installed-Size: 168
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Source: sun-java6
+Version: 6.20dlj-0ubuntu1.9.10
+Depends: unzip
+Filename: pool/multiverse/s/sun-java6/sun-java6-doc_6.20dlj-0ubuntu1.9.10_all.deb
+Size: 34382
+MD5sum: 2d0bd5c3c96a2175e07b015c846cbb9e
+SHA1: 683033847cdc6e112e02994203a441f2e5fbe627
+SHA256: 2b7bf9c386a7bf36282cc9e04abc8e851f8ff91d4179c789a210f4abb8a248b2
+Description: Sun JDK(TM) Documention -- integration installer
+ The JDK(TM) is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package does not contain the Java Documentation
+ for the Java(TM) Development Kit (JDK).  The Java Documentation
+ (jdk-6-doc.zip) may be downloaded from
+ http://java.sun.com/javase/downloads/ and, if placed
+ in /tmp (with root.root ownership), this package will
+ install the Java Documentation with the corresponding JDK.
+ .
+ Note that the Japanese version of the documentation
+ (jdk-6-doc-ja.zip) may alternately be used.
+ .
+ NOTE: you cannot currently use this package to have both English &
+ Japanese documentation installed simultaneously
+Enhances: sun-java6-jdk
+Homepage: http://java.sun.com/javase/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: sun-java6-fonts
+Priority: optional
+Section: multiverse/x11
+Installed-Size: 112
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Source: sun-java6
+Version: 6.20dlj-0ubuntu1.9.10
+Provides: ttf-lucida
+Depends: sun-java6-jre (>= 6.20dlj-0ubuntu1.9.10), defoma
+Conflicts: ttf-lucida
+Filename: pool/multiverse/s/sun-java6/sun-java6-fonts_6.20dlj-0ubuntu1.9.10_all.deb
+Size: 1898
+MD5sum: 6bb2a584e9f8a2b89388c7b55b30f0f1
+SHA1: b73d1cf5e5ac0ea4e910fd94bd0d4f413c0cea96
+SHA256: 9f3e0a4deffae29f88ae46c10219b40390984968184d6ef1972be746b9f8548d
+Description: Lucida TrueType fonts (from the Sun JRE)
+ The Lucida fonts are included in the sun-java6-jre package.
+ This package makes the fonts available to defoma.
+Homepage: http://java.sun.com/javase/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: sun-java6-javadb
+Priority: optional
+Section: multiverse/libs
+Installed-Size: 29276
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Source: sun-java6
+Version: 6.20dlj-0ubuntu1.9.10
+Depends: sun-java6-jdk (= 6.20dlj-0ubuntu1.9.10)
+Filename: pool/multiverse/s/sun-java6/sun-java6-javadb_6.20dlj-0ubuntu1.9.10_all.deb
+Size: 10198454
+MD5sum: 6333ab3d7ec129540401e04e4e3aff3f
+SHA1: 53abefb981d17716fe9bcd9c2a55e3c2b2469d44
+SHA256: f6e97311817bb1debe2c51659ea7a161bdd6dd794e3eb57005eadf8a511a29e3
+Description: Java(TM) DB, Sun Microsystems' distribution of Apache Derby
+ Java DB is Sun's supported distribution of the open source Apache
+ Derby 100% Java technology database. It is fully transactional, secure,
+ easy-to-use, standards-based -- SQL, JDBC API, and Java EE -- yet small,
+ only 2MB.
+ .
+ This package adds the optional Java DB to your JDK 6 installation.
+ .
+ For more information, check out the Java DB website:
+ http://developers.sun.com/prodtech/javadb/
+Enhances: sun-java6-jdk
+Homepage: http://java.sun.com/javase/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: sun-java6-jdk
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 61048
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: i386
+Source: sun-java6
+Version: 6.20dlj-0ubuntu1.9.10
+Provides: java-compiler, java-sdk, java2-compiler, java2-sdk, java5-sdk, java6-sdk
+Depends: sun-java6-bin (= 6.20dlj-0ubuntu1.9.10), libc6, libx11-6
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Suggests: sun-java6-demo, sun-java6-doc, sun-java6-source
+Filename: pool/multiverse/s/sun-java6/sun-java6-jdk_6.20dlj-0ubuntu1.9.10_i386.deb
+Size: 20741934
+MD5sum: 69e9ad7c9f80f7e639472617f4feaef5
+SHA1: 6256676de0a83e0cdfe219b421f21d2d6333ff90
+SHA256: ddb91ed1d57f471b5fa64fa4998bfe531dc40e74c82c318c6c70351f5bb275a0
+Description: Sun Java(TM) Development Kit (JDK) 6
+ The JDK(TM) is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ The JDK includes tools useful for developing and testing programs
+ written in the Java programming language and running on the Java
+ Platform.
+ .
+ NOTE: You must accept Sun's EULA prior to successfully installing
+ this package
+Homepage: http://java.sun.com/javase/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: sun-java6-jre
+Priority: optional
+Section: multiverse/libs
+Installed-Size: 14316
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Source: sun-java6
+Version: 6.20dlj-0ubuntu1.9.10
+Replaces: ia32-sun-java6-bin, sun-java6-bin
+Provides: java-runtime, java-runtime-headless, java-virtual-machine, java2-runtime, java2-runtime-headless, java5-runtime, java5-runtime-headless, java6-runtime, java6-runtime-headless
+Depends: java-common (>= 0.24), locales, sun-java6-bin (= 6.20dlj-0ubuntu1.9.10) | ia32-sun-java6-bin (= 6.20dlj-0ubuntu1.9.10)
+Pre-Depends: debconf (>= 0.5) | debconf-2.0
+Recommends: gsfonts-x11
+Suggests: sun-java6-plugin | ia32-sun-java6-plugin, sun-java6-fonts, ttf-baekmuk | ttf-unfonts | ttf-unfonts-core, ttf-kochi-gothic | ttf-sazanami-gothic, ttf-kochi-mincho | ttf-sazanami-mincho, ttf-arphic-uming
+Conflicts: j2se-common
+Filename: pool/multiverse/s/sun-java6/sun-java6-jre_6.20dlj-0ubuntu1.9.10_all.deb
+Size: 6405754
+MD5sum: 17fb305373176ba8ba2e4a8c04c7eee1
+SHA1: 2f8943524bcd962a1376cf9a7ce9f98eaca1e80c
+SHA256: 840d8260f848c7e4eddc7a1e59f96b04a1b9a4652d1dd4135e2df1a31ffca8fc
+Description: Sun Java(TM) Runtime Environment (JRE) 6 (architecture independent files)
+ The Sun Java Platform Standard Edition Runtime Environment (JRE) 6
+ contains the Java virtual machine, runtime class libraries, and
+ Java application launcher that are necessary to run programs written
+ in the Java progamming language. It is not a development environment and
+ doesn't contain development tools such as compilers or debuggers.
+ For development tools, see the Java Development Kit JDK(TM) 6
+ (package sun-java6-jdk).
+ .
+ NOTE: You must accept Sun's EULA prior to successfully installing
+ this package
+ .
+ This package contains architecture independent files.
+Homepage: http://java.sun.com/javase/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: sun-java6-plugin
+Priority: optional
+Section: multiverse/web
+Installed-Size: 60
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: i386
+Source: sun-java6
+Version: 6.20dlj-0ubuntu1.9.10
+Depends: libasound2, libx11-6, libxext6, libxi6, libxtst6, sun-java6-bin (= 6.20dlj-0ubuntu1.9.10), firefox | firefox-2 | iceweasel | mozilla-firefox | iceape-browser | mozilla-browser | epiphany-gecko | epiphany-webkit | epiphany-browser | galeon | midbrowser | xulrunner | xulrunner-1.9
+Filename: pool/multiverse/s/sun-java6/sun-java6-plugin_6.20dlj-0ubuntu1.9.10_i386.deb
+Size: 1860
+MD5sum: 7f05ac1465fe54e1370129d7605d6a72
+SHA1: 81e9ede3df7311d60c695a5f8c5e05003a0da843
+SHA256: 68c46ef7a595e77fe8fe37c65d23145771e6bb5b68de22974ca8653739474ff8
+Description: The Java(TM) Plug-in, Java SE 6
+ Java Plug-in enables applets written to the Java Platform 6
+ specification to be run in Mozilla and other web browsers.
+ Java Plug-in comes with the Java Runtime Environment (JRE).
+ .
+ This is a metapackage containing dependencies for running Java in
+ various browsers.
+Homepage: http://java.sun.com/javase/
+Npp-Applications: ec8030f7-c20a-464f-9b0e-13a3a9e97384, 92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a
+Npp-Mimetype: application/x-java-vm, application/x-java-applet, application/x-java-applet;version=1.1, application/x-java-applet;version=1.1.1, application/x-java-applet;version=1.1.2, application/x-java-applet;version=1.1.3, application/x-java-applet;version=1.2, application/x-java-applet;version=1.2.1, application/x-java-applet;version=1.2.2, application/x-java-applet;version=1.3, application/x-java-applet;version=1.3.1, application/x-java-applet;version=1.4, application/x-java-applet;version=1.4.1, application/x-java-applet;version=1.4.2, application/x-java-applet;version=1.5, application/x-java-applet;version=1.6, application/x-java-applet;jpi-version=1.6.0_07, application/x-java-bean, application/x-java-bean;version=1.1, application/x-java-bean;version=1.1.1, application/x-java-bean;version=1.1.2, application/x-java-bean;version=1.1.3, application/x-java-bean;version=1.2, application/x-java-bean;version=1.2.1, application/x-java-bean;version=1.2.2, application/x-java-bean;version=1.3, application/x-java-bean;version=1.3.1, application/x-java-bean;version=1.4, application/x-java-bean;version=1.4.1, application/x-java-bean;version=1.4.2, application/x-java-bean;version=1.5, application/x-java-bean;version=1.6, application/x-java-bean;jpi-version=1.6.0_07
+Npp-Name: The Java(TM) Plug-in, Java SE 6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: sun-java6-source
+Priority: optional
+Section: multiverse/devel
+Installed-Size: 18660
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Source: sun-java6
+Version: 6.20dlj-0ubuntu1.9.10
+Replaces: sun-java6-src
+Depends: sun-java6-jdk (>= 6.20dlj-0ubuntu1.9.10)
+Conflicts: sun-java6-src
+Filename: pool/multiverse/s/sun-java6/sun-java6-source_6.20dlj-0ubuntu1.9.10_all.deb
+Size: 17867644
+MD5sum: d5b1d77b71be6dddca39db704e6e53d2
+SHA1: 373bd6eb621262e7b0dff5be0ac731e635c94b46
+SHA256: 553d7115f359775c5bd8b605833722fa8176fe38d55d33ed7014041cc01742c2
+Description: Sun Java(TM) Development Kit (JDK) 6 source files
+ The JDK(TM) is a development environment for building applications,
+ applets, and components using the Java programming language.
+ .
+ This package contains the Java programming language source
+ files (src.zip) for all classes that make up the Java core API.
+Homepage: http://java.sun.com/javase/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: ttf-root-installer
+Priority: optional
+Section: multiverse/x11
+Installed-Size: 96
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Original-Maintainer: Christian Holm Christensen <cholm@nbi.dk>
+Architecture: all
+Source: root-system
+Version: 5.18.00-2.3ubuntu2.1
+Provides: root-ttf
+Depends: debconf (>= 1.2.0), wget (>= 1.9.1-4)
+Conflicts: ttf-root
+Filename: pool/multiverse/r/root-system/ttf-root-installer_5.18.00-2.3ubuntu2.1_all.deb
+Size: 19634
+MD5sum: cb3f61c1c0153cafb0d062be9f49f521
+SHA1: 9b43a55b47c47bd89ab12909c854576626545db6
+SHA256: 36175552a5f2683ba0896b3b474c411e6716d480a2b941377662ebadf6d642a3
+Description: True type fonts for ROOT - installer package
+ This package will install the True Type Fonts (TTF) used by ROOT.
+ These fonts are provided by Microsoft.  Note, that you may not
+ redistribute this font files.   This package will download the fonts
+ from the ROOT FTP server,  or alternatively use an already downloaded
+ tar-file.
+ .
+ ROOT web-site: http://root.cern.ch
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+
+Package: xvidcap
+Priority: optional
+Section: multiverse/x11
+Installed-Size: 2792
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Christian Marillat <marillat@debian.org>
+Architecture: i386
+Version: 1.1.7-0.2ubuntu5.1
+Depends: libavcodec52 (>= 3:0.svn20090303-1) | libavcodec-extra-52 (>= 3:0.svn20090303-1), libavdevice52 (>= 3:0.svn20090303-1) | libavdevice-extra-52 (>= 3:0.svn20090303-1), libavformat52 (>= 3:0.svn20090303-1) | libavformat-extra-52 (>= 3:0.svn20090303-1), libavutil49 (>= 3:0.svn20090303-1) | libavutil-extra-49 (>= 3:0.svn20090303-1), libc6 (>= 2.7), libdbus-glib-1-2 (>= 0.78), libglade2-0 (>= 1:2.6.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.0), libswscale0 (>= 3:0.svn20090303-1) | libswscale-extra-0 (>= 3:0.svn20090303-1), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3 (>= 1:4.0.1), libxmu6, imagemagick, dbus-x11, libavcodec-extra-52
+Filename: pool/multiverse/x/xvidcap/xvidcap_1.1.7-0.2ubuntu5.1_i386.deb
+Size: 1347190
+MD5sum: fe4e63ca74fcad30b795a82f95054f5d
+SHA1: cc0013434137a67cd4d77be89f6ce38b57d63dfc
+SHA256: a9e1b2b3d8ee4f5ca044c5dc448664b59c8ee42599f004850988cb3f2c21c30e
+Description: Screen video capture for X
+ A screen capture enabling you to capture videos off your X-Window desktop
+ for illustration or documentation purposes. It is intended to be a
+ standards-based alternative to tools like Lotus ScreenCam.
+ .
+ Video can be saved in MPEG or AVI files format.
+Homepage: http://xvidcap.sourceforge.net/
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+

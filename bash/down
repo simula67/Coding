@@ -1,0 +1,43 @@
+#!/bin/bash
+echo '--------------------------------------------'
+echo '--------------------------------------------'
+echo 'Debian Power Down Script'
+echo 'Coded by simula67 (Joji Antony) : simula67@gmail.com'
+echo '--------------------------------------------'
+echo '--------------------------------------------'
+if [ $EUID -ne 0 ]; then
+    echo "Need to be root to poweroff"
+    exit 1
+fi
+cur_hour=`/bin/date +%k`
+cur_min=`/bin/date +%M`
+if [ $# -ne 2 ];
+then
+    echo "No suitable time found on command line"
+    echo "Using 7 45 instead"
+    echo "Shut down at 7:45HRS"
+    shut_hour=7
+    shut_min=44
+else
+    echo "Shut down at $1:$2HRS"
+    shut_hour=$1
+    shut_min=`expr $2 - 1`
+fi
+sleep_hour=`expr $shut_hour - $cur_hour`
+sleep_min=`expr $shut_min - $cur_min`
+if [ $sleep_min -lt 0 ];
+then
+    sleep_hour=`expr $sleep_hour - 1`
+    sleep_min=`expr $sleep_min + 60`
+fi
+if [ $sleep_hour -lt 0 ];
+then
+    sleep_hour=`expr $sleep_hour + 24`
+fi
+echo "Need to sleep $sleep_hour hours and `expr $sleep_min + 1` minutes"
+echo "Sleeping.."
+sleep "$sleep_hour"h 2>/dev/null
+sleep "$sleep_min"m 2>/dev/null
+echo "Wakeup"
+echo "`date +%a`, `date +%b` `date +%d`, `date +%T`: Shutdown from Shutdown script">>shut.log
+shutdown -h -P +1

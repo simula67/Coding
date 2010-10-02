@@ -1,0 +1,48 @@
+This is the documentation describes how to use the optab.h header file.
+
+The proposed structure of optab is a three dimensional array of characters(two dimensional string array).
+There are two string arrays which store the pneumonic and corresponding opcode at the same offset in the following format
+       Pneumonic             Opcode
+0.     ADD                   A8
+1.     SUB                   C2
+2.     MOV A,M               B1
+
+...
+
+
+
+
+This header file consists functions for loading optabs, searching for pneumonic inside an optab and freeing an optab. These functions are explained below.
+
+                                                      Loading Optab
+
+Prototype : char ***load_optab(char *filename,int *num_ops)
+This function reads the filename and loads the pneumonic-opcode pairs into the memory for later use.
+The pneumonic-opcode pair must be in the format:
+<pneumonic>=<opcode>\n
+
+Note that the newline is a must in every pneumonic declaration.
+If the optab loading fails at any point the function prints an error message in the standard out and return 0.
+
+HENCE THE RETURN VALUE OF THE OPTAB MUSTBE CHECKED WITH NULL BEFORE USING THE OPTAB. 
+USING AN INCORRECT OPTAB MAY RESULT IN SEGMENTATION FAULTS DURING OPCODE LOOKUPS OR FREEING IF YOU ARE LUCKY.
+IF YOU ARE UNLUCKY YOUR PROGRAM MAY BEHAVE IN WAYS YOU MAY NOT UNDERSTAND.
+ 
+The num_ops should be a reference which will contain the number of rows in the optab which is necessary for freeing or lookups.
+
+                                                    Searching Optab
+Prototype : char *search_optab(char ***optab,char *neum,int num_ops)
+This function searches for a pneumonic in the optab. The char pointer returned is the memory location of the opcode from the optab memory frame.
+
+
+If you are going to modify it the value will change in the optab also. So in case you want to process it you are advised to copy it into another buffer before doing so.
+If you do modify the opcode you should be aware of the stucture of the optab in memory and the space allocated for each opcode.
+I do not need to tell you that if you overwrite memory that do not belong to you things will break.
+
+                                                    Freeing optab
+Prototype : void free_optab(char ***optab,int num_ops)
+This function frees the memory allocated to the optab argument given.
+Since C is not a garbage collected Programming Language, you are advised to free the optab after you have used it.
+
+
+Coded by : simula67

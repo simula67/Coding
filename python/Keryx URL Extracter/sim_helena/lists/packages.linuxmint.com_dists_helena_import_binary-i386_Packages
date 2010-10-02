@@ -1,0 +1,306 @@
+Package: bombono-dvd
+Version: 0.5.2-1ppa1~karmic1
+Architecture: i386
+Maintainer: Ilya Murav'jov <muravjov.il@gmail.com>
+Installed-Size: 2668
+Depends: libatk1.0-0 (>= 1.20.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libcairomm-1.0-1 (>= 1.6.4), libdvdread4 (>= 4.1.3), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libglibmm-2.4-1c2a (>= 2.22.0), libgtk2.0-0 (>= 2.10.0), libgtkmm-2.4-1c2a (>= 1:2.18.0), libpango1.0-0 (>= 1.18.0), libpangomm-1.4-1 (>= 2.24.0), libsigc++-2.0-0c2a (>= 2.0.2), libstdc++6 (>= 4.4.0), libxml++2.6-2 (>= 2.24.0), libxml2 (>= 2.6.27), dvdauthor, mjpegtools, dvd+rw-tools, scons, twolame
+Suggests: totem
+Homepage: http://www.bombono.org
+Priority: optional
+Section: graphics
+Filename: pool/import/b/bombono-dvd/bombono-dvd_0.5.2-1ppa1~karmic1_i386.deb
+Size: 1234874
+SHA1: d84b831b3b7e1937c5f5fcb621a5cc4e634143b7
+MD5sum: 17fb96068cbc87f8f0516d2d61a5531c
+Description: DVD authoring program with nice and clean GUI
+ Bombono DVD is easy to use program for making DVD-Video.
+ The main features of Bombono DVD are:
+  * Excellent MPEG viewer: Timeline and Monitor
+  * Real WYSIWYG Menu Editor with live thumbnails
+  * Comfortable Drag-N-Drop support
+  * You can author to folder, make ISO-image or burn directly to DVD
+  * Reauthoring: you can import video from DVD discs.
+
+Package: compiz-check
+Version: 0.4.5-4-mint2
+Architecture: all
+Maintainer: merlwiz79 <linuxmint.com>
+Installed-Size: 68
+Priority: optional
+Section: utility
+Filename: pool/import/c/compiz-check/compiz-check_0.4.5-4-mint2_all.deb
+Size: 10664
+SHA1: de836d899c1e8fb1b2fa3a500dceb23b34faf75a
+MD5sum: 053ea4e81f1b66134c9ae33ef0348522
+Description: Script to check if it's possible to run Compiz on your system.
+ Compiz-Check is a script to test if your system/setup is able to run Compiz. It will also help you trace back the problems you may be facing and gives some troubleshooting tips. Visit http://forlong.blogage.de/article/pages/Compiz-Check for updates and further information. The script is suitable for GNOME, KDE and Xfce users and is not limited to a specific Linux distribution.
+
+Package: frostwire
+Version: 4.18.1-1~getdeb1
+Architecture: i386
+Maintainer: Joao Pinto <joao.pinto@getdeb.net>
+Installed-Size: 44732
+Depends: openjdk-6-jre | java-runtime, fontconfig
+Priority: extra
+Section: net
+Filename: pool/import/f/frostwire/frostwire_4.18.1-1~getdeb1_i386.deb
+Size: 36799952
+SHA1: ad38122f307ff4405283b6e9bd71b152621433db
+MD5sum: 0090e9637f0f13fa51df7cbab90bdc94
+Description: FrostWire is a high quality, FREE peer-to-peer application.
+ It's core is based on LimeWire but it also supports bittorrent.
+
+Package: gtk2-engines-aurora
+Version: 1.5.1~pablo1-1mint1
+Architecture: i386
+Maintainer: Pablo Castellazzi <pablo.castellazzi@gmail.com>
+Installed-Size: 348
+Depends: libatk1.0-0 (>= 1.20.0), libc6 (>= 2.1.3), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.3.5), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.14.1), libpango1.0-0 (>= 1.21.6), zlib1g (>= 1:1.1.4)
+Homepage: http://www.gnome-look.org/content/show.php/Aurora+Gtk+Engine?content=56438
+Priority: optional
+Section: gnome
+Filename: pool/import/g/gtk2-engines-aurora/gtk2-engines-aurora_1.5.1~pablo1-1mint1_i386.deb
+Size: 58598
+SHA1: 9c3fa1e7c790723f84a20c0514f7174fbc804d4c
+MD5sum: a287b9abb1bdf293c8495fcbeb1adcbf
+Description: Aurora engine for GTK+ 2.x
+ This package contains the Aurora engine that allows
+ you to configure the look of GTK+ 2.x-using programs.
+ The programs need no modifications to use themes;
+ the support is built in to GTK+ 2.x.
+ .
+ To use Aurora select it from the GNOME Appeareance dialog.
+
+Package: gtk2-engines-candido
+Version: 0.9.1-pablo4
+Architecture: i386
+Maintainer: Pablo Castellazzi <pablo.castellazzi@gmail.com>
+Installed-Size: 120
+Depends: libatk1.0-0 (>= 1.20.0), libc6 (>= 2.1.3), libcairo2 (>= 1.6.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.12.0), libpango1.0-0 (>= 1.20.5)
+Homepage: http://candido.berlios.de
+Priority: optional
+Section: gnome
+Filename: pool/import/g/gtk2-engines-candido/gtk2-engines-candido_0.9.1-pablo4_i386.deb
+Size: 26548
+SHA1: a1ca3b6863652ade3b155ecd2d9b9df114598818
+MD5sum: 40d59fadd67343b5e8bb25b032e509cc
+Description: Candido engine for GTK+ 2.x
+ This package contains the candido engine that allows
+ you to configure the look of GTK+ 2.x-using programs.
+ The programs need no modifications to use themes;
+ the support is built in to GTK+ 2.x.
+ .
+ To use Candido select it from the GNOME Appeareance dialog.
+
+Package: inxi
+Version: 1.2.6-2
+Architecture: all
+Maintainer: Cathbard Druid <cathbard@gmail.com>
+Installed-Size: 240
+Depends: bash (>= 2.05), procps, pciutils, gawk, mesa-utils, x11-utils | xbase-clients, net-tools
+Suggests: irssi, xchat, konversation
+Priority: extra
+Section: utility
+Filename: pool/import/i/inxi/inxi_1.2.6-2_all.deb
+Size: 70440
+SHA1: 673e6943f9c0edc5d7f46132abe37b8c4889e1c9
+MD5sum: 0553c3d66a5f2115b0e99f89fd590a50
+Description: System info script for irc (forked from infobash by locsmith)
+ Inxi is a system information script can display all kinds of things about
+ your hardware and software to users in an IRC (Internet Relay Chat) chatroom.
+ It runs with the /exec command in most irc clients and also /cmd with konversation.
+
+Package: meiga
+Version: 0.3.2-1
+Architecture: i386
+Maintainer: Enrique Ocaña González <eocanha@igalia.com>
+Installed-Size: 344
+Depends: libatk1.0-0 (>= 1.20.0), libc6 (>= 2.3.6-6~), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.18.0), libgssdp-1.0-1 (>= 0.6.2), libgtk2.0-0 (>= 2.16.0), libgupnp-1.0-2 (>= 0.12.2), libpango1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.25.4), libxml2 (>= 2.6.27), zlib1g (>= 1:1.1.4), ssh-askpass, openssh-client
+Homepage: http://meiga.igalia.com/
+Priority: optional
+Section: gnome
+Filename: pool/import/m/meiga/meiga_0.3.2-1_i386.deb
+Size: 65408
+SHA1: dc52a997726dc3009bc1cf30a000bb56a4ff45a3
+MD5sum: 4facb5870f1b1f9fb0cfe115de52ed22
+Description: Light and easy content server for your desktop
+ Meiga shares selected local directories via web and also as
+ an RSS feed. It can reconfigure your LAN router using UPnP
+ to make the share accessible from the Internet.
+
+Package: mint-dropbox
+Version: 1.0
+Architecture: all
+Maintainer: Kendall Weaver <kendalltweaver@gmail.com>
+Installed-Size: 140
+Depends: zenity, wget (>= 1.10.0), libnotify1 (>= 0.4.5), libglib2.0-0 (>= 2.16.0), python (>= 2.5), python-gtk2 (>= 2.12), libatk1.0-0 (>= 1.20.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libgtk2.0-0 (>= 2.8.0), libnotify1-gtk2.10, libpango1.0-0 (>= 1.14.0)
+Priority: required
+Section: admin
+Filename: pool/import/m/mint-dropbox/mint-dropbox_1.0_all.deb
+Size: 18662
+SHA1: 9e4c1dad8dc3f2ea52a0a9b2707990a0e4aa9d95
+MD5sum: 8223bef4f2d4847811317527625685f0
+Description: Dropbox integration for Linux Mint
+ Desktop independent Dropbox installer.
+ .
+ Check out http://www.linuxmint.com/ and check
+ out http://www.getdropbox.com/
+
+Package: opera
+Version: 10.10.4742.gcc4.qt3
+Architecture: i386
+Depends: libc6 (>= 2.1.3), xlib6g (>= 3.3.6) | xlibs | libxmu6, debconf (>= 0.5) | debconf-2.0, libqt3-mt (>= 3.3.4), libstdc++6
+Recommends: ttf-linux-libertine | ttf-freefont | linux-libertine | ttf-dejavu | ttf-bitstream-vera | ttf-mscorefonts-installer | msttcorefonts
+Suggests: flash-npapi-plugin | flashplugin-nonfree | flashplayer-mozilla | swf-player | libflash-mozplugin | mozilla-plugin-gnash, pdf-npapi-plugin | djvulibre-plugin | mozilla-acroread, cups-client | cupsys-client | lpr, sun-java6-jre | sun-java5-jre | java-gcj-compat, xine-plugin | gxineplugin | mplayerplug-in | kaffeine-mozilla | mozilla-mplayer | mozilla-helix-player | gecko-mediaplayer, mozplugger | plugger, mozilla-bonobo, aspell
+Conflicts: opera-static
+Replaces: opera-static
+Provides: www-browser
+Installed-Size: 29148
+Maintainer: Opera Packaging Team <packager@opera.com>
+Bugs: https://bugs.opera.com/wizard/
+Priority: optional
+Section: non-free/web
+Filename: pool/import/o/opera/opera_10.10.4742.gcc4.qt3_i386.deb
+Size: 13390716
+SHA1: e881c9c5e12c3915884e2974c9616bc195493cfe
+MD5sum: 86f23db219e9946f12f8f05da7cb05ea
+Description: The Opera Web Browser
+ Welcome to the Opera Web browser.  It is smaller, faster,
+ customizable, powerful, yet user-friendly.  Opera
+ eliminates sluggish performance, HTML standard violations,
+ desktop domination, and instability.  This robust Web
+ browser lets you navigate the Web at incredible speed and
+ offers you the best Internet experience.
+ .
+ The binaries were built using gcc 4.
+
+Package: picasa
+Version: 3.0.5744-02
+Architecture: i386
+Depends: libc6 (>= 2.2), libasound2, zlib1g, gconf2, libfreetype6 (>= 2.1.10)
+Installed-Size: 106560
+Maintainer: Picasa Linux Maintainer <picasa-linux-packager@google.com>
+Priority: optional
+Section: non-free/graphics
+Filename: pool/import/p/picasa/picasa_3.0.5744-02_i386.deb
+Size: 31784420
+SHA1: fe8e83b29a10b5d663e87861d85512faea036c06
+MD5sum: 4350390a4c2a0fadea9320221a8f9bb9
+Description: Image management application from Google
+ Picasa is software that helps you instantly find, edit and share all
+ the pictures on your PC. Every time you open Picasa, it
+ automatically locates all your pictures (even ones you forgot you had) and
+ sorts them into visual albums organized by date with folder names you will
+ recognize. You can drag and drop to arrange your albums and make labels to
+ create new groups. Picasa makes sure your pictures are always
+ organized.
+ .
+ Picasa also makes advanced editing simple by putting one-click fixes
+ and powerful effects at your fingertips. And Picasa makes it a snap
+ to share your pictures - you can email, print photos, make gift CDs, post
+ pictures on your blog, and even share your photos online with Picasa Web
+ Albums.
+
+Package: pidgin-facebookchat
+Version: 1.63
+Architecture: all
+Essential: no
+Depends: pidgin (>= 2.3.0) | finch (>= 2.3.0) | libpurple0 (>= 2.3.0),
+	 libjson-glib-1.0-0 (>= 0.7.6),
+	 zlib1g (>= 1.2.0.4),
+	 libglib2.0-0 (>=2.16)
+Maintainer: Eion Robb <eion@robbmob.com>
+Priority: optional
+Section: net
+Filename: pool/import/p/pidgin-facebookchat/pidgin-facebookchat_1.63_all.deb
+Size: 408822
+SHA1: 696d929f5a9d6b7f486cb2802d546b15121f15bd
+MD5sum: 1e129e2dd4adf0f3e463e25a5c40a49e
+Description:	Facebook Chat plugin for Pidgin.
+
+Package: songbird
+Version: 1.2.0-1~getdeb1
+Architecture: i386
+Maintainer: Paulo Dias <paulo.miguel.dias@gmail.com>
+Installed-Size: 51572
+Depends: firefox
+Priority: optional
+Section: sound
+Filename: pool/import/s/songbird/songbird_1.2.0-1~getdeb1_i386.deb
+Size: 17703208
+SHA1: 2e697bb4baed4c25fe560a4dee0710697c9cf10a
+MD5sum: 8a4d36e0e252c43bccf8baf2376fc961
+Description: Songbird is a desktop Web player, a digital jukebox and Web browser mash-up
+ It supports extensions and skins feathers. Like Firefox,
+ it is built from Mozilla, cross-platform and open source.
+ .
+ Homepage: http://www.songbirdnest.com/
+
+Package: virtualbox-3.0
+Version: 3.0.10-54097_Ubuntu_karmic
+Architecture: i386
+Maintainer: Sun Microsystems, Inc. <info@virtualbox.org>
+Installed-Size: 84800
+Pre-Depends: debconf (>= 1.1) | debconf-2.0
+Depends: libc6 (>= 2.7), libcurl3 (>= 7.16.2-1), libgcc1 (>= 1:4.1.1), libpython2.6 (>= 2.6), libqt4-network (>= 4.5.1), libqtcore4 (>= 4.5.1), libqtgui4 (>= 4.5.1), libsdl1.2debian (>= 1.2.10-1), libssl0.9.8 (>= 0.9.8f-5), libstdc++6 (>= 4.4.0), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxml2 (>= 2.7.4), libxmu6, libxslt1.1 (>= 1.1.18), libxt6, zlib1g (>= 1:1.1.4), psmisc, adduser
+Recommends: libasound2, libpulse0, libsdl-ttf2.0-0, dkms, linux-headers, gcc, make, binutils, libhal1 (>= 0.5), pdf-viewer, libgl1, python-central
+Conflicts: virtualbox, virtualbox-ose
+Replaces: virtualbox
+Provides: virtualbox
+Priority: optional
+Section: non-free/misc
+Filename: pool/import/v/virtualbox-3.0/virtualbox-3.0_3.0.10-54097_Ubuntu_karmic_i386.deb
+Size: 43765980
+SHA1: 2d8607a4442e4f1253f282677102a027d16c9408
+MD5sum: d2334a837093b884f607a9775ec23d6d
+Description: Sun VirtualBox
+ VirtualBox is a powerful PC virtualization solution allowing you to run a
+ wide range of PC operating systems on your Linux system. This includes
+ Windows, Linux, FreeBSD, DOS, OpenBSD and others. VirtualBox comes with a broad
+ feature set and excellent performance, making it the premier virtualization
+ software solution on the market.
+Python-Version: >= 2.4
+
+Package: wine-doors
+Version: 0.1.3
+Architecture: all
+Maintainer: Andrew Stormont (astormont) <andyjstormont@googlemail.com>
+Installed-Size: 2176
+Depends: wine (>= 1.0), python, python-gtk2, python-cairo, python-gnome2-desktop, python-glade2, orange, cabextract, unzip, x11-xkb-utils
+Homepage: http://www.wine-doors.org
+Priority: optional
+Section: otherosfs
+Filename: pool/import/w/wine-doors/wine-doors_0.1.3_all.deb
+Size: 494272
+SHA1: 71a58954f69260ea21fc07acd2ff0d310a06f478
+MD5sum: 4414a7ea59107723c4ff2ad4664e36f8
+Description: Wine-doors is an application designed to make installing windows
+ software on Linux, Solaris or other Unix systems easier. Wine-doors
+ is essentially a package management tool for windows software on
+ Linux systems. Most Linux desktop users are familiar with package
+ management style application delivery, so it made sense to apply
+ this model to windows software.
+ .
+ Wine-doors works by leveraging the exquisite software, libraries
+ and tools created over at WineHQ, there are also plans to support
+ Cedega, cvscedega and Crossover Office.
+ .
+ Updating to 0.1.3 is highly recommended.
+
+Package: worldofgoodemo
+Architecture: all
+Version: 1.41
+Maintainer: Maks Verver <maksverver@geocities.com>
+Homepage: http://www.worldofgoo.com/
+Depends: libc6, libstdc++6, libgl1, libglu1, libx11-6
+Installed-Size: 46760
+Priority: extra
+Section: games
+Filename: pool/import/w/worldofgoodemo/worldofgoodemo_1.41_all.deb
+Size: 34827872
+SHA1: 76f46735d29dd98f6930a72bb96e2aa7f28272c9
+MD5sum: 68f77037383d8c27fff3a6f73098a284
+Description: A physics based puzzle/construction game
+ The millions of Goo Balls who live in the beautiful World of Goo don't know
+ that they are in a game, or that they are extremely delicious.
+

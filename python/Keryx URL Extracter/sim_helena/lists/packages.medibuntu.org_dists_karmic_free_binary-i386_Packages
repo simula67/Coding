@@ -1,0 +1,195 @@
+Package: aacgain
+Version: 1.8-0.0medibuntu1.1
+Architecture: i386
+Maintainer: Medibuntu Packaging Team <medibuntu-maintainers@lists.launchpad.net>
+Installed-Size: 980
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Homepage: http://altosdesign.com/aacgain/
+Priority: extra
+Section: free/sound
+Filename: pool/free/a/aacgain/aacgain_1.8-0.0medibuntu1.1_i386.deb
+Size: 423140
+SHA256: 213c8895bf4c03441c025027e8333d0153b2149a95587bbad0204907a736a904
+SHA1: 82ef651c0dcc325befa2ac38c60082d1c2103cd4
+MD5sum: 17eb20217d28a0a80c2c10a90f004acf
+Description: Lossless mp4 normalizer with statistical analysis
+ AACGain normalizes the volume of digital music files using the Replay Gain
+ algorithm. It works by modifying the global_gain fields in the mp4 samples.
+ Free-form metadata tags are added to the file to save undo information,
+ making the normalization process reversable. It supports AAC
+ (mp4/m4a/QuickTime) audio files in addition to mp3 files.
+ .
+ AACGain uses the same command-line user interface as mp3gain
+Original-Maintainer: Christian Marillat <marillat@debian.org>
+
+Package: aacplusenc
+Version: 0.17.1-0.1medibuntu1
+Architecture: i386
+Maintainer: Medibuntu Packaging Team <admin@lists.medibuntu.org>
+Installed-Size: 252
+Depends: libc6 (>= 2.4), libfftw3-3
+Homepage: http://teknoraver.net/software/mp4tools/
+Priority: extra
+Section: free/sound
+Filename: pool/free/a/aacplusenc/aacplusenc_0.17.1-0.1medibuntu1_i386.deb
+Size: 113288
+SHA256: 686f62499c98431885e3f19f07adb204a5503491dab913d96d5bdcaad1f9a04c
+SHA1: ebb3481e0df0b72929ce7e7a50a3aa444d06d22b
+MD5sum: db08cb65c101a4fb4a53b88443f2b8b0
+Description: High-Efficency AAC (AAC+) Encoder
+ aacplusenc converts WAV files to the AAC+ format.
+ .
+ This package is based on the official 3GPP AAC+ encoder and
+ implement the HE-AAC lossy compression scheme
+ .
+ Therefore, it is in Medibuntu as it might violate patents.
+ .
+ This package isn't supported by Ubuntu: DON'T REPORT BUGS TO UBUNTU!
+ .
+ Please report any bug to our bug tracker instead:
+  https://bugs.launchpad.net/medibuntu/+bugs
+Original-Maintainer: Christian Marillat <marillat@debian.org>
+
+Package: app-install-data-medibuntu
+Version: 0.2ubuntu1
+Architecture: all
+Maintainer: Medibuntu Packaging Team <medibuntu-maintainers@lists.launchpad.net>
+Installed-Size: 100
+Priority: optional
+Section: free/x11
+Filename: pool/free/a/app-install-data-medibuntu/app-install-data-medibuntu_0.2ubuntu1_all.deb
+Size: 14496
+SHA256: 488ae9f8f0f8eed8620e7de45468920090af51b6abc65990ffac0f2ec1230164
+SHA1: b3f464402ed0f9b1fc37ea4318ccd46702829211
+MD5sum: 5248d1c6a4d28481c7a271ae27923de1
+Description: Medibuntu applications (data files)
+ This package contains the Medibuntu specific application data for
+ gnome-app-install, an easy to use and simple application installer.
+Original-Maintainer: Guillaume Martres <smarter@ubuntu.com>
+
+Package: apport-hooks-medibuntu
+Version: 1medibuntu1
+Architecture: all
+Maintainer: Medibuntu Packaging Team <admin@lists.medibuntu.org>
+Installed-Size: 72
+Depends: apport (>= 0.146~)
+Priority: optional
+Section: free/utils
+Filename: pool/free/a/apport-hooks-medibuntu/apport-hooks-medibuntu_1medibuntu1_all.deb
+Size: 2592
+SHA256: 67624793cef0201e22dba98c680b58b7214b14853ddd7021b2bfd00ed056d1fc
+SHA1: 7165ae025b8b5d7ca89af2bfd6355daba75c3d4f
+MD5sum: dbf0988edb53ea28638a217ab2bb003d
+Description: Apport hooks for Medibuntu
+ This package contains apport hooks for Medibuntu, which allow users to
+ generate crash reports against Medibuntu packages and submit them to the
+ Medibuntu bugtracker.
+
+Package: hot-babe
+Version: 0.2.2-3medibuntu8
+Architecture: i386
+Maintainer: Medibuntu Packaging Team <admin@lists.medibuntu.org>
+Installed-Size: 548
+Pre-Depends: debconf (>= 1.4.69) | cdebconf (>= 0.39)
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.15.0), libpango1.0-0 (>= 1.22.0), debconf (>= 0.5) | debconf-2.0
+Homepage: http://dindinx.net/hotbabe
+Priority: optional
+Section: free/utils
+Filename: pool/free/h/hot-babe/hot-babe_0.2.2-3medibuntu8_i386.deb
+Size: 419056
+SHA256: df3ab1b5b416d67d6cd63847d2f3ffeb33290e783151a3aeb217c2540b30b20a
+SHA1: 1b8dec7cdba9ef615238104a65aa56248f638d45
+MD5sum: be56989356ec954b9c1cfb41a7a420fa
+Description: A GTK-based monitoring app
+ Hot-babe is a small graphical utility which display the system activity
+ in a very special way. When the CPU is idle, it displays a dressed girl,
+ and when the activity goes up, as the temperature increases, the girl
+ begins to undress, to finish totally naked when the system activity
+ reaches 100%. Of course, if you can be shocked by nudity, don't use it!
+ .
+ This package is in Medibuntu because of its explicit content.
+ .
+ This package isn't supported by Ubuntu: DON'T REPORT BUGS TO UBUNTU!
+ .
+ Please report any bug to Medibuntu's bug tracker instead:
+  https://bugs.launchpad.net/medibuntu/+bugs
+
+Package: ices
+Version: 0.4-0medibuntu1
+Architecture: i386
+Maintainer: Medibuntu Packaging Team <admin@lists.medibuntu.org>
+Installed-Size: 164
+Depends: libc6 (>= 2.4), libfaad0 (>= 2.6.1), libmp3lame0 (>= 3.98), libmp4v2-0 (>= 1:1.6dfsg), libogg0 (>= 1.0rc3), libperl5.10 (>= 5.10.0), libshout3, libspeex1 (>= 1.2~beta3-1), libtheora0 (>= 0.0.0.alpha7.dfsg-1.1), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libxml2 (>= 2.6.27), python2.5 (>= 2.5)
+Homepage: http://www.icecast.org/ices.php
+Priority: optional
+Section: free/sound
+Filename: pool/free/i/ices/ices_0.4-0medibuntu1_i386.deb
+Size: 42038
+SHA256: ac3166a9abaff009eb83a5e69f85910b12fed3a2cefdf29f8db692b6156c96b5
+SHA1: fdf129cfddf89fd98c21e7c62b2ce73ce005380e
+MD5sum: 1c5aeba0723c1019a7e38cf1bc18b74f
+Description: streaming source for Icecast 2
+ IceS 0.x is used to source Icecast 2 streaming audio servers with MP3 audio
+ streams.  It supports both live audio input from a soundcard and re-encoding
+ of MP3 files from a playlist.
+
+Package: libdvdcss-dev
+Source: libdvdcss
+Version: 1.2.10-0.3medibuntu1
+Architecture: i386
+Maintainer: Medibuntu Packaging Team <medibuntu-maintainers@lists.launchpad.net>
+Installed-Size: 112
+Depends: libdvdcss2
+Conflicts: libdvdcss2-dev
+Replaces: libdvdcss2-dev
+Homepage: http://download.videolan.org/
+Priority: optional
+Section: free/libdevel
+Filename: pool/free/libd/libdvdcss/libdvdcss-dev_1.2.10-0.3medibuntu1_i386.deb
+Size: 36586
+SHA256: b88c362c9b1ec1c60f8d37975585aa6bdbf9690d03d8de41cd1d132a66c99e47
+SHA1: 3f9db5e1a729a27574fcba3b16acd757fdeb64ac
+MD5sum: 2a1e8091e8cd081006340d6894e72b92
+Description: Simple foundation for reading DVDs - devel files
+ To allow applications to access some of the more advanced features
+ of the DVD format.
+Original-Maintainer: Christian Marillat <marillat@debian.org>
+
+Package: libdvdcss2
+Source: libdvdcss
+Version: 1.2.10-0.3medibuntu1
+Architecture: i386
+Maintainer: Medibuntu Packaging Team <medibuntu-maintainers@lists.launchpad.net>
+Installed-Size: 108
+Depends: libc6 (>= 2.7)
+Replaces: libdvdcss-dev (<= 0.0.3-3), libdvdcss0 (<= 1.0.0-0.0), libdvdcss2-dev (<= 1.2.10-0.0)
+Provides: libdvdcss
+Homepage: http://download.videolan.org/
+Priority: optional
+Section: free/libs
+Filename: pool/free/libd/libdvdcss/libdvdcss2_1.2.10-0.3medibuntu1_i386.deb
+Size: 38036
+SHA256: 049d118ee796e63635e35810e6f859fa958c4fc63b7c41db4da4a1575aadf87d
+SHA1: 5578069eda700d4d41824214a6d16cb16f13da0d
+MD5sum: 4ff8430bafaf9be17e73006bf4e0e16c
+Description: Simple foundation for reading DVDs - runtime libraries
+ To allow applications to access some of the more advanced features
+ of the DVD format.
+Original-Maintainer: Christian Marillat <marillat@debian.org>
+
+Package: medibuntu-keyring
+Version: 2008.04.20
+Architecture: all
+Maintainer: Lionel Le Folgoc <mrpouit@ubuntu.com>
+Installed-Size: 48
+Depends: gnupg (>= 1.0.6-4)
+Priority: important
+Section: free/misc
+Filename: pool/free/m/medibuntu-keyring/medibuntu-keyring_2008.04.20_all.deb
+Size: 3448
+SHA1: aaac8c883f8085ead891c59a1d84f3852140263d
+MD5sum: 29a1ea2423c8011dffb038ccca33e46d
+Description: GnuPG key of the Medibuntu repository
+ The Medibuntu repository digitally signs its Release files. This package
+ contains the repository key used for that.
+

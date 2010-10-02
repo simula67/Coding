@@ -1,0 +1,3 @@
+ADD=A8
+MOV A,M=B1
+SUB=C2

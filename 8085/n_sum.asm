@@ -1,0 +1,25 @@
+
+;<Program title>
+JMP START
+
+
+;data
+
+
+;code
+START:	LXI H,4000
+	MOV B,M
+	MVI A,00H
+	MVI D,00H
+LOOP: 	INX H
+	MOV C,M
+	ADD C
+	JNC NOCARRY
+	INR D
+NOCARRY: DCR B
+	JNZ LOOP
+	INX H
+	MOV M,D
+	INX H
+	MOV M,A
+	HLT

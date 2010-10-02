@@ -1,0 +1,239 @@
+Package: adobe-flashplugin
+Source: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 10132
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: i386
+Version: 10.0.45.2-1karmic1
+Replaces: flashplugin (<< 6)
+Suggests: firefox, konqueror-nsplugins, x-ttcidfont-conf, msttcorefonts, ttf-bitstream-vera | ttf-dejavu, ttf-xfree86-nonfree, xfs (>= 1:1.0.1-5), libnspr4-0d, libnss3-1d
+Provides: flashplugin-nonfree
+Depends: debconf | debconf-2.0, wget, fontconfig, libatk1.0-0 (>= 1.20.0), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxt6
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-installer, xfs (<< 1:1.0.1-5)
+Filename: pool/partner/a/adobe-flashplugin/adobe-flashplugin_10.0.45.2-1karmic1_i386.deb
+Size: 4022802
+MD5sum: ae95572f8ce555ddb93c300868a36468
+SHA1: 7b6c187c5d9143d5eb3207a8c5f90e0f7159639b
+Description: Adobe Flash Player plugin version 10
+ This package will download the Flash Player from Adobe. It is a
+ Netscape/Mozilla type plugin. Any browser based on Netscape or Mozilla can use
+ the Flash plugin. This package officially supports the following browsers:
+ .
+ Firefox 2.x, Firefox 3.x, SeaMonkey 1.11
+
+Package: symphony
+Source: symphony
+Priority: extra
+Section: editors
+Installed-Size: 444660
+Maintainer: IBM Lotus Symphony technical support <iptcs@cn.ibm.com>
+Architecture: i386
+Version: 1.3-1karmic2
+Suggests: firefox | mozilla-browser | graphicsmagick-imagemagick-compat | imagemagick | msttcorefonts
+Depends: libart-2.0-2 (>= 2.3.18), libatk1.0-0 (>= 1.20.0), libbonobo2-0 (>= 2.15.0), libbonoboui2-0 (>= 2.15.1), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.4.0), libgcc1 (>= 1:4.1.1), libgconf2-4 (>= 2.23.2), libglib2.0-0 (>= 2.12.0), libgnome-keyring0 (>= 2.20.3), libgnome2-0 (>= 2.17.3), libgnomecanvas2-0 (>= 2.11.1), libgnomeui-0 (>= 2.22.0), libgnomevfs2-0 (>= 1:2.17.90), libgtk2.0-0 (>= 2.8.0), libice6 (>= 1:1.0.0), libjpeg62, liborbit2 (>= 1:2.14.10), libpango1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libpopt0 (>= 1.14), libsm6, libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxft2 (>> 2.1.1), libxkbfile1, libxml2 (>= 2.6.27), libxrender1, libxt6, zlib1g (>= 1:1.1.4)
+Pre-Depends: libstdc++6
+Filename: pool/partner/s/symphony/symphony_1.3-1karmic2_i386.deb
+Size: 188663724
+MD5sum: cc000a4a3c30722c10e8414e4512c8fd
+SHA1: 52f8a2d49c1dd3940ca5abe53c0208e218a0806b
+Description: IBM Lotus Symphony
+ IBM Lotus Symphony provides three powerful editors by which you can create, manage, and edit documents in Open Document Format(ODF): Lotus Symphony Documents, Lotus Symphony Presentation, Lotus Symphony Spreadsheets. With Lotus Symphony Documents, you can create and edit simple or highly structured documents, graphics, tables, and charts. With Lotus Symphony Spreadsheets, you can perform standard and advanced spreadsheet functions to calculate, analyze, and manage your data. With Lotus Symphony Presentations, you can create and edit professional screen shows that include charts, drawing objects, and text. You can also import, edit, and export Oo 1.1 files and Microsoft(R) Office files in Lotus Symphony.
+
+Package: accountz-baz
+Source: accountz-baz
+Priority: extra
+Section: misc
+Installed-Size: 90892
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: all
+Version: 2009.10.27-0ubuntu4
+Depends: sun-java6-jre | sun-java5-jre | openjdk-6-jre, xdg-utils, evince | pdf-viewer
+Filename: pool/partner/a/accountz-baz/accountz-baz_2009.10.27-0ubuntu4_all.deb
+Size: 70945678
+MD5sum: ccd56315c4406e7067f4992d3932bd76
+SHA1: afe488b420fa1cfc30dbcbf46ff3603ae9b0199d
+Description: Business Accountz - The World's Simplest Accounting Application
+ Business accountz Enterprise builds on the success of Business accountz Basic
+ and Professional, giving businesses full control of sales and purchase
+ channels with the added advantage of automated transactions.
+ .
+ Business Accountz is powerful yet easy to use. Your current VAT return is just
+ a single click away. It understands VAT rate changes too (no need to manually
+ change tax codes in our software).
+ .
+ Familiar spreadsheet like interfaces let you add, delete and edit everything
+ you do. By minimising the number of mouse and keyboard actions everything
+ becomes easier to remember saving you time and money. This is accounting at its
+ best.
+ .
+ Designed for the progressive growing business, Business Accountz Enterprise
+ manages your business with ease. Create documents with your own logo and layout
+ including purchase orders, invoices and reports. With its instant VAT return,
+ accountant ready reports and free lifetime forum support Accountz is the most
+ intuitive bookkeeping software in the world today. Enterprise is fully
+ upgradable with optional extras including multi-currency and multi company
+ options.
+ .
+ * Manage suppliers
+ * Design and print purchase orders
+ * Track bills
+ * Organiser and event tracker
+ * Design and print invoices
+ * Send quotations and estimates
+ * Track unpaid invoices
+ * Pure, fast bookkeeping
+ * Fully editable
+ * Instant VAT returns
+ * Exports to spreadsheets
+ * Accountant ready reports
+ * Free lifetime forum support
+ .
+ This is a fully functioning version with 4 months use. After that period, you
+ can buy a licence to use the software from the www.accountz.com online shop.
+
+Package: alfresco-community
+Source: alfresco-community
+Priority: extra
+Section: web
+Installed-Size: 94116
+Maintainer: Alfresco Team <alfresco-isv@lists.launchpad.net>
+Architecture: all
+Version: 3.2.0-4
+Depends: debconf (>= 0.5) | debconf-2.0, sun-java6-jre, tomcat6, libxalan2-java, mysql-server, imagemagick, openoffice.org-headless | openoffice.org-core (>= 3.0), mysql-client, openoffice.org-writer, openoffice.org-calc, openoffice.org-impress, swftools (>= 0.9.0)
+Conflicts: alfresco-pdf2swf
+Pre-Depends: dbconfig-common
+Filename: pool/partner/a/alfresco-community/alfresco-community_3.2.0-4_all.deb
+Size: 93678096
+MD5sum: 7e3f0cdac35432ca24a56a079334530e
+SHA1: cea71e95347486ade1ecb78de9a071b367cad224
+Description: open source enterprise content management solution
+ Open Source Alternative for Enterprise Content Management (ECM), providing
+ Document Management, Collaboration, Records Management, Knowledge Management,
+ Web Content Management and Imaging.
+ .
+ Alfresco allows users to access a simple to use, Intelligent Virtual File
+ System from their native application or portal with the full power of an
+ Enterprise Content Management System.
+
+Package: acroread
+Source: acroread
+Priority: extra
+Section: text
+Installed-Size: 148976
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: i386
+Version: 9.3.2-karmic1
+Replaces: acroread-debian-files, adobereader-enu
+Suggests: libldap2, libgnome-speech7
+Provides: adobereader-enu, pdf-viewer
+Depends: libatk1.0-0 (>= 1.20.0), libc6 (>= 2.3.6-6~), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.12.0), libglu1-mesa | libglu1, libgtk2.0-0 (>= 2.8.0), libidn11 (>= 0.5.18), libpango1.0-0 (>= 1.14.0), libssl0.9.8 (>= 0.9.8f-5), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxml2 (>= 2.6.27), libxt6, zlib1g (>= 1:1.1.4)
+Conflicts: acroread-debian-files, adobereader-enu
+Filename: pool/partner/a/acroread/acroread_9.3.2-karmic1_i386.deb
+Size: 63473544
+MD5sum: cc1b7e9a4bed919a9213cbef15b152c5
+SHA1: 66f986d97cf66afbc719b0ecd69dadcf6519e22e
+Description: Adobe Reader
+ Adobe Reader allows you to view navigate and print PDF files. This version
+ adds advanced forms support (save), better integration with Adobe Acrobat
+ workflows, customizable toolbars and better overall performance.
+
+Package: openbravo-erp
+Source: openbravo-erp
+Priority: extra
+Section: web
+Installed-Size: 1084444
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: all
+Version: 2.50MP-14-4
+Depends: sun-java6-jdk, postgresql, postgresql-contrib, postgresql-client, ant, ant-optional, tomcat6-common, apache2, libapache2-mod-jk, libtcnative-1, adduser
+Filename: pool/partner/o/openbravo-erp/openbravo-erp_2.50MP-14-4_all.deb
+Size: 117224158
+MD5sum: f07b068459ba479ce21dc22e76ef1d8c
+SHA1: e86f8a877dcab701922981c185066e10a5ec54bb
+Description: Enterprise Resource Planning solution
+ Openbravo is "Everyone's ERP"--a comprehensive, ready to use, web-based open
+ source business management solution that automates all of the core business
+ processes for small and medium-sized companies, ranging from accounting and
+ financial management, to sales, purchasing, inventory management and more.
+ .
+ Written in Java and offering a choice between Oracle and PostgreSQL
+ as database, Openbravo is model-driven, allowing easy extension and
+ configuration of the system. The simple, powerful, and consistent browser
+ screens do not require any client software installation, are intuitive for
+ users to learn, and designed for efficient daily use. The comprehensive
+ web service coverage enables easy integration with other applications.
+ .
+ Openbravo ERP is the foundation of a global ecosystem that is changing the
+ way ERP solutions are developed, marketed, and consumed. Its modular
+ architecture enables easy creation and deployment of native third
+ party extensions, and Openbravo ERP users can complement the core
+ functionality, choosing from an ever increasing portfolio of modules
+ providing localization capabilities, additional functions and vertical
+ specialization. The Openbravo ERP ecosystem provides packaged solutions to
+ support all the core business processes shared by most companies, enabling
+ Openbravo users to quickly realize the benefits of implementing an ERP and
+ allowing them to focus their implementation efforts on the processes that
+ provide a true competitive advantage.
+ .
+ Openbravo Community Edition on Ubuntu is a free and fully functional
+ ERP, ready for production usage. Organizations wishing to maximize the
+ benefits of their ERP system can also easily activate a Professional
+ Edition subscription and enjoy: Full support for both the application and
+ technology stack Premium functionality Access to a broader portfolio of
+ extensions, including commercial modules and solutions. Get started now,
+ and become part of Openbravo's global vision of "Opening ERP's Future".
+
+Package: uex
+Source: uex
+Priority: extra
+Section: editors
+Installed-Size: 56496
+Maintainer: IDM Computer Solutions, Inc. <idm@idmcomp.com>
+Architecture: i386
+Version: 1.2.0.3-1karmic2
+Depends: libboost-regex1.38.0 (>= 1.38.0-1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.18.0), libicu40 (>= 4.0-1), libpango1.0-0 (>= 1.14.0), libsm6, libstdc++6 (>= 4.4.0), libx11-6, libxinerama1, libxml2 (>= 2.7.4)
+Filename: pool/partner/u/uex/uex_1.2.0.3-1karmic2_i386.deb
+Size: 23374844
+MD5sum: abcdb86d0e95af57075387ad68967a62
+SHA1: 3fdab200c097ebe9b5a0819587c37be9546ee432
+Description: Text, HTML, HEX, PHP, Perl, Java and JavaScript editor
+ Features:
+ * Code Folding
+ * Supports 64-bit file handling
+ * Unicode support
+ * Disk based text editing and large file handling - supports files in
+ excess of 4GB, minimum RAM used even for multi-megabyte files
+ * Multiline find and replace dialogs for all searches (Find, Replace,
+ Find in Files, Replace in Files)
+ * Syntax highlighting - configurable, pre-configured for C/C++, VB, HTML,
+ Java, and Perl, multiple wordfiles available for download
+ * Project/workspace support
+ * Integrated scripting language to automate tasks
+ * Configurable keyboard mapping
+ * Column/block mode editing
+ * Hexadecimal editor allows editing of any binary file, shows binary
+ and ASCII view
+
+Package: adobereader-deu
+Source: adobereader-deu
+Priority: extra
+Section: text
+Installed-Size: 160964
+Maintainer: Brian Thomason <brian.thomason@canonical.com>
+Architecture: i386
+Version: 9.3.2-1karmic1
+Replaces: acroread, acroread-debian-files, acroread-deu
+Suggests: libldap2, libgnome-speech7
+Provides: acroread, acroread-deu, pdf-viewer
+Depends: libatk1.0-0 (>= 1.20.0), libc6 (>= 2.3.6-6~), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.12.0), libglu1-mesa | libglu1, libgtk2.0-0 (>= 2.8.0), libidn11 (>= 0.5.18), libpango1.0-0 (>= 1.14.0), libssl0.9.8 (>= 0.9.8f-5), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxml2 (>= 2.6.27), libxt6, zlib1g (>= 1:1.1.4), debconf
+Conflicts: acroread, acroread-debian-files, acroread-deu
+Filename: pool/partner/a/adobereader-deu/adobereader-deu_9.3.2-1karmic1_i386.deb
+Size: 69636464
+MD5sum: 3fefab858b368dba682a6b233e4b0b66
+SHA1: 9e0182814bf525adc3ccc87896228ce73d0c2707
+Description: Adobe Reader
+ Adobe Reader allows you to view navigate and print PDF files. This version
+ adds advanced forms support (save), better integration with Adobe Acrobat
+ workflows, customizable toolbars and better overall performance.
+
