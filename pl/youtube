@@ -1,0 +1,19 @@
+#!/usr/bin/perl
+#Coded by : simula67
+use LWP;
+my $url = shift;
+my $file_name = shift;
+die "Usage $0 <youtube url> <filename>\n" unless ($url&&$file_name);
+my $ua = LWP::UserAgent->new;
+my $response = $ua->get($url);
+die "Failed to fetch initial file" unless ($response->is_success);
+my $download;
+if( ($download) = ($response->decoded_content =~ /(http\S*?videoplayback\S*?)\|\|/) ) {
+	    while($download =~ s/\\//){;}
+	        print "Download url is : $download";
+		    system("wget -c --user-agent=\"Firefox\" \"$download\" -O - >\"$file_name\"");
+}
+else {
+	    print "Failed to find download url\n";
+}
+

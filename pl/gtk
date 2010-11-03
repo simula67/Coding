@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+use Gtk2 '-init';
+ 
+$window = Gtk2::Window->new('toplevel');
+$window->set_title("Hello World!");
+ 
+$button = Gtk2::Button->new("Press me");
+$button->signal_connect(clicked => sub { print "Hello again - the button was pressed\n"; });
+ 
+$window->add($button);
+$window->show_all;
+ 
+Gtk2->main;
+ 
+0;
