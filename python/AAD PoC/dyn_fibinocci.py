@@ -1,10 +1,10 @@
 #!/usr/bin/python
 import sys
 def fib_rec(n,fibn):
-    if(fibn[n-1]>0):
-        return fibn[n-1]
     if(n<=1):
         return n
+    if(fibn[n-1]>0):
+        return fibn[n-1]
     else:
         fibn[n-1] = fib_rec(n-1,fibn) + fib_rec(n-2,fibn)
         return fibn[n-1]
