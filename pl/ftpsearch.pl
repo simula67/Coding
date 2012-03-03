@@ -19,7 +19,7 @@ sub parse_path {
     my @directories = $conn->dir();
     foreach $dir (@directories) {
 	if( $dir =~ m|^d.*| ) {
-	    if( ($next_dir) = ($dir =~ m|.*\s(.*)|) ) {
+	    if( ($next_dir) = ($dir =~ m|.*\d (.*)|s) ) {
 		$conn->quit();
 		parse_path("$path$next_dir/");
 	    }
