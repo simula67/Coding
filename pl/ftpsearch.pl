@@ -27,7 +27,7 @@ sub parse_path {
 	}
 	else {
 	    
-	    if( ($file) = ($dir =~ m|.*\s(.*)|) ) {
+	    if( ($file) = ($dir =~ m|.*\d (.*)|) ) {
                 print "$hostname$path$file\n";
             }
 
