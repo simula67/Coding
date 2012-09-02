@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #Prints all the files from an ftp site
-# author : simula67 ( JOJI Antony )
+# author : simula67 ( Joji Antony )
 use Net::FTP;
 $hostname = shift;
 die "Usage : $0 <hostname> [username] [password]\n" unless (defined($hostname));
