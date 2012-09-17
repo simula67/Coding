@@ -15,4 +15,4 @@ def getImagesFromGoogle(keyword):
         images.append(link['href'].split('=')[1].split('&')[0])
     return images
 
-print getImagesFromGoogle("nude");
+print getImagesFromGoogle("lion");
